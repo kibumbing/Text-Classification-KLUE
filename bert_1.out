@@ -1,0 +1,56 @@
+Reusing dataset klue (/home/kibum/.cache/huggingface/datasets/klue/ynat/1.0.0/e0fc3bc3de3eb03be2c92d72fd04a60ecc71903f821619cb28ca0e1e29e4233e)
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1323.54it/s]using cached model. /home/kibum/kobert/.cache/kobert_v1.zip
+using cached model. /home/kibum/kobert/.cache/kobert_news_wiki_ko_cased-1087f8699e.spiece
+using cached model. /home/kibum/kobert/.cache/kobert_news_wiki_ko_cased-1087f8699e.spiece
+  0%|          | 0/714 [00:00<?, ?it/s]
+
+klue_classification.py:103: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
+  for batch_id, (token_ids, valid_length, segment_ids, label) in enumerate(tqdm_notebook(train_dataloader)):
+epoch 1 batch id 1 loss 0.7161769866943359 train acc 0.5
+epoch 1 batch id 201 loss 0.16779825091362 train acc 0.7953980099502488
+epoch 1 batch id 401 loss 0.13564296066761017 train acc 0.8661159600997507
+epoch 1 batch id 601 loss 0.026329902932047844 train acc 0.8940567803660566
+epoch 1 train acc 0.9079350490196079
+  0%|          | 0/143 [00:00<?, ?it/s]
+klue_classification.py:122: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
+  for batch_id, (token_ids, valid_length, segment_ids, label) in enumerate(tqdm_notebook(test_dataloader)):
+epoch 1 test acc 0.9549825174825175
+  0%|          | 0/714 [00:00<?, ?it/s]
+epoch 2 batch id 1 loss 0.12557750940322876 train acc 0.953125
+epoch 2 batch id 201 loss 0.10365322977304459 train acc 0.9518812189054726
+epoch 2 batch id 401 loss 0.1275622695684433 train acc 0.9544887780548629
+epoch 2 batch id 601 loss 0.0018194748554378748 train acc 0.959182612312812
+epoch 2 train acc 0.9645702030812325
+  0%|          | 0/143 [00:00<?, ?it/s]
+epoch 2 test acc 0.9489729020979021
+  0%|          | 0/714 [00:00<?, ?it/s]
+epoch 3 batch id 1 loss 0.14519603550434113 train acc 0.953125
+epoch 3 batch id 201 loss 0.0682842880487442 train acc 0.9699160447761194
+epoch 3 batch id 401 loss 0.04886147752404213 train acc 0.9718282418952618
+epoch 3 batch id 601 loss 0.0028719445690512657 train acc 0.9748336106489185
+epoch 3 train acc 0.9780943627450981
+  0%|          | 0/143 [00:00<?, ?it/s]
+epoch 3 test acc 0.951048951048951
+  0%|          | 0/714 [00:00<?, ?it/s]
+epoch 4 batch id 1 loss 0.0024034539237618446 train acc 1.0
+epoch 4 batch id 201 loss 0.01304961834102869 train acc 0.9812655472636815
+epoch 4 batch id 401 loss 0.008356431499123573 train acc 0.9831670822942643
+epoch 4 batch id 601 loss 0.0028588988352566957 train acc 0.9849989600665557
+epoch 4 train acc 0.9871761204481793
+  0%|          | 0/143 [00:00<?, ?it/s]
+epoch 4 test acc 0.9497377622377622
+  0%|          | 0/714 [00:00<?, ?it/s]
+epoch 5 batch id 1 loss 0.012055360712110996 train acc 1.0
+epoch 5 batch id 201 loss 0.007703307084739208 train acc 0.9894278606965174
+epoch 5 batch id 401 loss 0.014074159786105156 train acc 0.9906483790523691
+epoch 5 batch id 601 loss 0.0017826241673901677 train acc 0.9915765391014975
+epoch 5 train acc 0.9927783613445378
+  0%|          | 0/143 [00:00<?, ?it/s]
+epoch 5 test acc 0.9576048951048951
+using cached model. /home/kibum/kobert/.cache/kobert_news_wiki_ko_cased-1087f8699e.spiece
+하고싶은 말을 입력해주세요 : Traceback (most recent call last):
+  File "klue_classification.py", line 168, in <module>
+    sentence = input("하고싶은 말을 입력해주세요 : ")
+OSError: [Errno 9] Bad file descriptor
