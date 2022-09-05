@@ -23,7 +23,7 @@ dataset = load_dataset("klue", 'ynat')
 train_klue = pd.DataFrame({'title': dataset['train']['title'],
                            'label': dataset['train']['label']})
 
-test_klue = pd.DataFrame({'title': dataset['validation']['titleklue_classifi'],
+test_klue = pd.DataFrame({'title': dataset['validation']['title'],
                           'label': dataset['validation']['label']})
 
 device = torch.device("cuda:0")
